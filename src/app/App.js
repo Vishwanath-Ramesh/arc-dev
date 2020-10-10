@@ -1,9 +1,20 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import './App.css';
+import Header from "../components/Header/Header";
+import Routes from "../app/routes";
+
+import "./App.css";
 
 const App = () => {
-  return <div>Welcome</div>;
+  return (
+    <div className="app-root">
+      <BrowserRouter>
+        <Routes />
+        <Header />
+      </BrowserRouter>
+    </div>
+  );
 };
 
 export default App;

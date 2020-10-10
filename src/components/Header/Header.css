@@ -1,0 +1,28 @@
+.Appbar-Root.MuiAppBar-colorPrimary {
+  background-color: var(--primary-color);
+}
+
+.Appbar-Root .logo {
+  height: 8em;
+}
+
+.Appbar-Root .logo-container {
+  padding: 0;
+}
+
+.Appbar-Root .logo-container:hover {
+  background-color: transparent;
+}
+
+.Appbar-Root .tab-container {
+  margin-left: auto;
+}
+
+.Appbar-Root .tab-item {
+  font-family: Raleway;
+  text-transform: none;
+  font-weight: 700;
+  font-size: 1rem;
+  min-width: 10px;
+  margin-left: 25px;
+}

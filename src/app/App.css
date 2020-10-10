@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #0b72b9;
+  --secondary-color: #ffba60;
+}
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.Typography-Root.MuiTypography-h3 {
+  font-weight: 300;
+}
+
+.MuiButton-containedPrimary {
+  background-color: var(--primary-color);
+}
+
+.tab-container .PrivateTabIndicator-colorPrimary-2 {
+  background-color: var(--primary-color);
+}
+
+.btn-free-estimate.MuiButton-containedSecondary {
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: Pacifico;
+  font-size: 1rem;
+  text-transform: none;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 25px;
+  height: 45px;
+}
+
+.app-root {
+}
