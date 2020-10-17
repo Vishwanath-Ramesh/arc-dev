@@ -18,6 +18,10 @@
   margin-left: auto;
 }
 
+.Appbar-Root .tab-container .MuiTabs-indicator {
+  background-color: var(--primary-color);
+}
+
 .Appbar-Root .tab-item {
   font-family: Raleway;
   text-transform: none;
@@ -25,4 +29,95 @@
   font-size: 1rem;
   min-width: 10px;
   margin-left: 25px;
+}
+
+#simple-menu .MuiMenu-paper {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 0px;
+}
+
+#simple-menu .MuiListItem-root.MuiMenuItem-root {
+  font-family: Raleway;
+  text-transform: none;
+  font-weight: 700;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+#simple-menu .MuiListItem-root.MuiMenuItem-root:hover {
+  opacity: 1;
+}
+
+.toolbar-margin {
+  margin-bottom: 3em;
+}
+
+.Appbar-Root #swipeable-drawer {
+  margin-left: auto;
+}
+
+.Appbar-Root .drawer-icon:hover {
+  background-color: transparent;
+}
+
+#swipeable-drawer .drawer-icon .MuiSvgIcon-root {
+  height: 50px;
+  width: 50px;
+}
+
+.header-drawer .MuiPaper-root {
+  background-color: var(--primary-color);
+}
+
+.header-drawer .drawer-item-estimate {
+  background-color: var(--secondary-color);
+}
+
+.header-drawer .drawer-item-text {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.header-drawer .drawer-item-text:hover {
+  opacity: 1;
+}
+
+.header-drawer .drawer-item-text.selected {
+  opacity: 1;
+}
+
+/* Above Medium */
+@media only screen and (min-width: 960px) {
+  #swipeable-drawer {
+    display: none;
+  }
+}
+
+/* Medium */
+@media only screen and (max-width: 960px) {
+  .MuiTabs-root.tab-container,
+  .MuiButtonBase-root.btn-free-estimate,
+  #simple-menu {
+    display: none;
+  }
+
+  .Appbar-Root .logo {
+    height: 7em;
+  }
+
+  .toolbar-margin {
+    margin-bottom: 2em;
+  }
+}
+
+/* Small */
+@media only screen and (max-width: 600px) {
+  .Appbar-Root .logo {
+    height: 5.5em;
+  }
+
+  .toolbar-margin {
+    margin-bottom: 1.25em;
+  }
 }
