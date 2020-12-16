@@ -1,3 +1,7 @@
+.Appbar-Root.MuiAppBar-root {
+  z-index: 1301;
+}
+
 .Appbar-Root.MuiAppBar-colorPrimary {
   background-color: var(--primary-color);
 }
@@ -29,6 +33,10 @@
   font-size: 1rem;
   min-width: 10px;
   margin-left: 25px;
+}
+
+#simple-menu.MuiPopover-root {
+  z-index: 1302 !important;
 }
 
 #simple-menu .MuiMenu-paper {

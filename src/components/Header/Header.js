@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/styles";
 import { Menu as MenuIcon } from "@material-ui/icons";
 
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/images/logo.svg";
 import "./Header.css";
 
 function ElevationScroll(props) {
@@ -40,9 +40,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Header = (props) => {
-  const [tabValue, setTabValue] = useState(0);
-  const [selectedMenuItem, setSelectedMenuItem] = useState(0);
+const Header = ({
+  tabValue,
+  setTabValue,
+  selectedMenuItem,
+  setSelectedMenuItem,
+  ...props
+}) => {
   const [openMenu, setOpenMenu] = useState(false);
   const [anchorEl, setAnchorEl] = useState(null);
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -66,7 +70,7 @@ const Header = (props) => {
     { Label: "Services", URL: "/services" },
     { Label: "Custom Software Development", URL: "/customsoftware" },
     { Label: "Website Development", URL: "/websites" },
-    { Label: "Mobile App Development", URL: "/mobileapps" },
+    { Label: "iOS/Android App Development", URL: "/mobileapps" },
   ];
 
   const drawerItems = [
@@ -159,9 +163,9 @@ const Header = (props) => {
                 onClose={() => setOpenDrawer(false)}
                 onOpen={() => setOpenDrawer(true)}
               >
-                {/* <div
+                <div
                   className={`toolbar-margin ${classes.toolbarMargin}`}
-                ></div> */}
+                ></div>
                 <List disablePadding>
                   {drawerItems.map((drawerItem, index) => {
                     return (

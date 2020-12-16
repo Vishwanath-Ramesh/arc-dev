@@ -1,0 +1,254 @@
+.services-root {
+  margin-top: 5em;
+}
+
+.services-root .grid-item-slogan {
+  min-width: 22.5em;
+  /* margin-left: 1em; */
+}
+
+.services-root .lottie-main {
+  height: 100%;
+  width: 100%;
+}
+
+.services-root .buttons-container {
+  margin-top: 1em;
+}
+
+.services-root .buttons-container .btn-estimate {
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: Pacifico;
+  font-size: 1rem;
+  text-transform: none;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 25px;
+  height: 45px;
+}
+
+.services-root .btn-learn-more {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  border-width: 2px;
+  text-transform: none;
+  border-radius: 50px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.services-root .buttons-container .btn-learn-more {
+  font-size: 0.9rem;
+  height: 45px;
+  width: 145px;
+}
+
+.services-root .buttons-container .text-learn-more {
+  margin-right: 0.5em;
+}
+
+.services-root .lottie-container {
+  max-width: 50em;
+  min-width: 21em;
+  margin-top: 2em;
+  margin-left: 10%;
+}
+
+.services-root .learn-more-arrow {
+  fill: var(--primary-color);
+  width: 15px;
+  height: 15px;
+}
+
+.services-root .services-celebration-text {
+  font-family: "Pacifico";
+  color: var(--secondary-color);
+}
+
+.services-root .services-container,
+.services-root .app-container,
+.services-root .website-container {
+  margin-top: 5em;
+}
+
+.services-root .services-container .services-item,
+.services-root .website-container .website-item {
+  margin-left: 5em;
+}
+
+.services-root .services-container .btn-learn-more,
+.services-root
+  .app-container
+  .btn-learn-more
+  .services-root
+  .website-container
+  .btn-learn-more {
+  font-size: 0.7rem;
+  height: 35px;
+  padding: 5;
+}
+
+.services-root .services-container .csd-image,
+.services-root .website-container .website-image {
+  margin-left: 2em;
+}
+
+.services-root .app-container {
+  justify-content: flex-end;
+}
+
+.services-root .app-container .app-icon {
+  margin-right: 5em;
+}
+
+.services-root .revolution-block {
+  height: 100em;
+  margin-top: 12em;
+}
+
+.services-root .revolution-block .revolution-card {
+  position: absolute;
+  border-radius: 15px;
+  padding: 10em;
+}
+
+.services-root .revolution-container {
+  text-align: center;
+}
+
+.services-root .revolution-background {
+  background-image: url("../../assets//images/repeatingBackground.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.services-root .information-container {
+  height: 80em;
+}
+
+.services-root .information-container .text-aboutus {
+  color: white;
+}
+
+.services-root .information-container .info-background-image {
+  background-image: url("../../assets//images/infoBackground.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.services-root .information-container .info-grid-container {
+  position: absolute;
+}
+
+.services-root .information-container .info-item {
+  margin-left: 5em;
+}
+
+.services-root .information-container .info-item-contact {
+  margin-right: 5em;
+  text-align: right;
+}
+
+.services-root .information-container .info-item .btn-learn-more,
+.services-root .information-container .info-item-contact .btn-learn-more {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.services-root .information-container .info-item .learn-more-arrow,
+.services-root .information-container .info-item-contact .learn-more-arrow {
+  fill: #ffffff;
+}
+
+/* Medium */
+@media only screen and (max-width: 960px) {
+  .services-root {
+    margin-top: 3em;
+  }
+
+  .services-root .information-container .info-item {
+    margin-left: 2em;
+  }
+
+  .services-root .information-container .info-item-contact {
+    margin-right: 2em;
+  }
+}
+
+/* Small */
+@media only screen and (max-width: 600px) {
+  .services-root {
+    margin-top: 2em;
+  }
+
+  .services-root .grid-item-slogan {
+    margin-left: 0;
+  }
+
+  .services-root .lottie-container {
+    max-width: 30em;
+  }
+
+  .services-root .services-container,
+  .services-root .website-container {
+    justify-content: center;
+    padding: 25px;
+  }
+
+  .services-root .services-container .services-item,
+  .services-root .app-container .app-item,
+  .services-root .website-container .website-item {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .services-root .services-container .csd-image,
+  .services-root .website-container .website-image {
+    margin-left: 0;
+  }
+
+  .services-root .services-container .btn-learn-more,
+  .services-root .app-container .btn-learn-more,
+  .services-root .website-container .btn-learn-more {
+    margin-bottom: 2em;
+  }
+
+  .services-root .app-container .app-break {
+    display: none;
+  }
+
+  .services-root .app-container {
+    justify-content: center;
+    padding: 25px;
+  }
+
+  .services-root .revolution-block .revolution-card {
+    padding: 8em 0;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  .services-root .information-container .info-item {
+    margin-left: 0;
+  }
+
+  .services-root .information-container .info-item-contact {
+    margin-right: 0;
+  }
+
+  .services-root .information-container .info-grid-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services-root .information-container .info-item-contact {
+    text-align: center;
+  }
+}

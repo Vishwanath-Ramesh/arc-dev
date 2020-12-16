@@ -1,16 +1,16 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 
+import Home from "../pages/Home/Home";
+import Services from "../pages/Services/Services";
+import CustomSoftware from "../pages/CustomSoftware/CustomSoftware";
+
 const Routes = () => {
   return (
     <Switch>
-      <Route exact path="/" component={() => <div>Home</div>} />
-      <Route exact path="/services" component={() => <div>services</div>} />
-      <Route
-        exact
-        path="/customsoftware"
-        component={() => <div>customsoftware</div>}
-      />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/services" component={Services} />
+      <Route exact path="/customsoftware" component={CustomSoftware} />
       <Route exact path="/mobileapps" component={() => <div>mobileapps</div>} />
       <Route exact path="/websites" component={() => <div>websites</div>} />
       <Route exact path="/revolution" component={() => <div>revolution</div>} />

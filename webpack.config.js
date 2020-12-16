@@ -20,6 +20,8 @@ module.exports = {
     }), //Load bundle scripts asynchronously
   ],
   devServer: {
+    host: "0.0.0.0",
+    port: 8080,
     open: true, //To open the browser after server had been started
     contentBase: false, //where to serve content(static files) from,
     inline: true, //Inject scripts into the bundle to show live reloading and build messages in the browser console.

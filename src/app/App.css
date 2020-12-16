@@ -1,13 +1,61 @@
 :root {
   --primary-color: #0b72b9;
   --secondary-color: #ffba60;
+  --grey-color: #868686;
 }
 
 body {
+  margin: 0;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
-.Typography-Root.MuiTypography-h3 {
+.mb-1 {
+  margin-bottom: 1em !important;
+}
+
+.ml-1 {
+  margin-left: 1em !important;
+}
+
+.ml-2 {
+  margin-left: 2em !important;
+}
+
+.ml-5 {
+  margin-left: 5em !important;
+}
+
+.MuiTypography-root.MuiTypography-h2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+}
+
+.MuiTypography-root.MuiTypography-h3 {
+  font-family: "Pacifico";
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.MuiTypography-root.MuiTypography-h4 {
+  font-family: "Raleway";
+  font-size: 1.75rem;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.MuiTypography-root.MuiTypography-subtitle1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: var(--grey-color);
+}
+
+.MuiTypography-root.MuiTypography-subtitle2 {
+  color: white;
+  font-size: 1.25rem;
   font-weight: 300;
 }
 
@@ -29,6 +77,11 @@ body {
   margin-left: 50px;
   margin-right: 25px;
   height: 45px;
+}
+
+.btn-free-estimate.MuiButton-containedSecondary:hover {
+  background-color: var(--secondary-color);
+  opacity: 0.8;
 }
 
 .app-root {

@@ -1,0 +1,254 @@
+.home-root {
+  margin-top: 5em;
+}
+
+.home-root .grid-item-slogan {
+  min-width: 22.5em;
+  /* margin-left: 1em; */
+}
+
+.home-root .lottie-main {
+  height: 100%;
+  width: 100%;
+}
+
+.home-root .buttons-container {
+  margin-top: 1em;
+}
+
+.home-root .buttons-container .btn-estimate {
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: Pacifico;
+  font-size: 1rem;
+  text-transform: none;
+  border-radius: 50px;
+  margin-left: 50px;
+  margin-right: 25px;
+  height: 45px;
+}
+
+.home-root .btn-learn-more {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  border-width: 2px;
+  text-transform: none;
+  border-radius: 50px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.home-root .buttons-container .btn-learn-more {
+  font-size: 0.9rem;
+  height: 45px;
+  width: 145px;
+}
+
+.home-root .buttons-container .text-learn-more {
+  margin-right: 0.5em;
+}
+
+.home-root .lottie-container {
+  max-width: 50em;
+  min-width: 21em;
+  margin-top: 2em;
+  margin-left: 10%;
+}
+
+.home-root .learn-more-arrow {
+  fill: var(--primary-color);
+  width: 15px;
+  height: 15px;
+}
+
+.home-root .services-celebration-text {
+  font-family: "Pacifico";
+  color: var(--secondary-color);
+}
+
+.home-root .services-container,
+.home-root .app-container,
+.home-root .website-container {
+  margin-top: 12em;
+}
+
+.home-root .services-container .services-item,
+.home-root .website-container .website-item {
+  margin-left: 5em;
+}
+
+.home-root .services-container .btn-learn-more,
+.home-root
+  .app-container
+  .btn-learn-more
+  .home-root
+  .website-container
+  .btn-learn-more {
+  font-size: 0.7rem;
+  height: 35px;
+  padding: 5;
+}
+
+.home-root .services-container .csd-image,
+.home-root .website-container .website-image {
+  margin-left: 2em;
+}
+
+.home-root .app-container {
+  justify-content: flex-end;
+}
+
+.home-root .app-container .app-icon {
+  margin-right: 5em;
+}
+
+.home-root .revolution-block {
+  height: 100em;
+  margin-top: 12em;
+}
+
+.home-root .revolution-block .revolution-card {
+  position: absolute;
+  border-radius: 15px;
+  padding: 10em;
+}
+
+.home-root .revolution-container {
+  text-align: center;
+}
+
+.home-root .revolution-background {
+  background-image: url("../../assets//images/repeatingBackground.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.home-root .information-container {
+  height: 80em;
+}
+
+.home-root .information-container .text-aboutus {
+  color: white;
+}
+
+.home-root .information-container .info-background-image {
+  background-image: url("../../assets//images/infoBackground.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.home-root .information-container .info-grid-container {
+  position: absolute;
+}
+
+.home-root .information-container .info-item {
+  margin-left: 5em;
+}
+
+.home-root .information-container .info-item-contact {
+  margin-right: 5em;
+  text-align: right;
+}
+
+.home-root .information-container .info-item .btn-learn-more,
+.home-root .information-container .info-item-contact .btn-learn-more {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.home-root .information-container .info-item .learn-more-arrow,
+.home-root .information-container .info-item-contact .learn-more-arrow {
+  fill: #ffffff;
+}
+
+/* Medium */
+@media only screen and (max-width: 960px) {
+  .home-root {
+    margin-top: 3em;
+  }
+
+  .home-root .information-container .info-item {
+    margin-left: 2em;
+  }
+
+  .home-root .information-container .info-item-contact {
+    margin-right: 2em;
+  }
+}
+
+/* Small */
+@media only screen and (max-width: 600px) {
+  .home-root {
+    margin-top: 2em;
+  }
+
+  .home-root .grid-item-slogan {
+    margin-left: 0;
+  }
+
+  .home-root .lottie-container {
+    max-width: 30em;
+  }
+
+  .home-root .services-container,
+  .home-root .website-container {
+    justify-content: center;
+    padding: 25px;
+  }
+
+  .home-root .services-container .services-item,
+  .home-root .app-container .app-item,
+  .home-root .website-container .website-item {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .home-root .services-container .csd-image,
+  .home-root .website-container .website-image {
+    margin-left: 0;
+  }
+
+  .home-root .services-container .btn-learn-more,
+  .home-root .app-container .btn-learn-more,
+  .home-root .website-container .btn-learn-more {
+    margin-bottom: 2em;
+  }
+
+  .home-root .app-container .app-break {
+    display: none;
+  }
+
+  .home-root .app-container {
+    justify-content: center;
+    padding: 25px;
+  }
+
+  .home-root .revolution-block .revolution-card {
+    padding: 8em 0;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  .home-root .information-container .info-item {
+    margin-left: 0;
+  }
+
+  .home-root .information-container .info-item-contact {
+    margin-right: 0;
+  }
+
+  .home-root .information-container .info-grid-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-root .information-container .info-item-contact {
+    text-align: center;
+  }
+}
